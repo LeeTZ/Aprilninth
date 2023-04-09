@@ -13,19 +13,20 @@ a:visited {
 
 .custom-search {
   position: relative;
-  width: 300px;
+  width: 600px;
 }
 .custom-search-input {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 100px;
   padding: 10px 100px 10px 20px; 
-  line-height: 1.5;
+  line-height: 2;
   box-sizing: border-box;
   outline: none;
 }
 .custom-search-botton {
   position: absolute;
+  width:150px;
   right: 3px; 
   top: 3px;
   bottom: 3px;
