@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>April's Challenge</title>
+	<style>
+		body {
+	background-image: url(image/background.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 8em;
+	margin-bottom: 2em;
+}
+
+button {
+	background-color: #3377ff;
+	border: none;
+	color: white;
+	font-size: 2em;
+	padding: 1em 2em;
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 3em;
+		margin-top: 4em;
+		margin-bottom: 1em;
+	}
+
+	button {
+		font-size: 1.5em;
+		padding: 0.5em 1em;
+		border-radius: 5px;
+	}
+}
+	</style>
+</head>
+<body>
+	<h1>April's Challenge</h1>
+	<button id="start">Accept</button>
+	<script>
+		document.querySelector('#start').addEventListener('click', () => {
+			window.location.href = 'level1.html';
+		});
+	</script>
+</body>
+</html>
